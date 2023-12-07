@@ -1,17 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Short de River",
-    "description": "Short de River original",
-    "code": "1006836",
-    "price": 10000,
-    "status": false,
-    "stock": 15,
-    "category": "Shorts",
-    "thumbnail": ""
-  },
-  {
-    "id": 2,
     "title": "Remera boca",
     "description": "Remera original de boca",
     "code": "1007706",
@@ -22,14 +11,14 @@
     "thumbnail": ""
   },
   {
-    "id": 3,
-    "title": "EJEMPLO BICICLETA",
-    "description": "...",
-    "code": "PRUEBA01",
-    "price": "1198299",
+    "id": 2,
+    "title": "Remera river",
+    "description": "Remera original de river",
+    "code": "1007709",
+    "price": 10000,
     "status": true,
-    "stock": "15",
-    "category": "Ruta",
-    "thumbnail": "https://newsport.vtexassets.com/arquivos/ids/17567638-800-auto?v=638358216130330000&width=800&height=auto&aspect=true"
+    "stock": 20,
+    "category": "Remeras",
+    "thumbnail": ""
   }
 ]

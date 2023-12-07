@@ -109,6 +109,23 @@ class ProductManager {
     }
   }
 
+  async deleteProductbycode(code) {
+    const i = this.products.findIndex((elm) => elm.code === code);
+
+    if (i === !1){
+      return 'Producto no encontrado'
+    }else {
+      const removedProduct = this.products[i]
+      const newProducts = this.products.filter((elm) => elm.code !== code);
+      this.products = newProducts;
+      const jsonProduct = JSON.stringify(this.products, null, 2);
+      await fs.promises.writeFile(this.path, jsonProduct);
+      return removedProduct;
+
+    }
+
+  }
+
   getId() {
     const exists = fs.existsSync(this.path);
     if (!exists) {
